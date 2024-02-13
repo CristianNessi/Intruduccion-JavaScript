@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 const contenedor = document.querySelector(".flex-container");
 
 function crearLlave(nombre, modelo, precio) {
+    let img = '<img class="llave-img" src="https://github.com/CristianNessi/Intruduccion-JavaScript/blob/3e0a25ac84a126d3b3fb7c954183d86898f2a64f/cofla.html/Capitulo-6/llave.png">';
     // https://github.com/CristianNessi/Intruduccion-JavaScript/blob/main/cofla.html/Capitulo-6/llave.png
     let img = '<img class="llave-img" src="https://github.com/CristianNessi/Intruduccion-JavaScript/blob/main/cofla.html/Capitulo-6/llave.png">';
    // let img = '<img class="llave-img" src="C:\\Users\\crist\\OneDrive\\Escritorio\\llave.png">';
