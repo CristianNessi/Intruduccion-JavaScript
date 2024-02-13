@@ -1,1 +1,147 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofla problema 4 </title>
+    <style>
+      * {
+        background-color: yellowgreen;
+      }
+      body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+   nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 40px;
+      background-color: #ccc;
+    }
+    nav a {
+      font-size: 20px ; 
+      text-decoration: none;
+      color: black;
+      border: 3px solid  rgb(0, 183, 255);
+      background-color: rgb(0, 255, 30);
+      padding: 4px;
+    }
+    h1 {
+      margin-top: 90px;
+    }
+    /* .problem-container {
+      display: block;
+      justify-content: space-around;
+    } */
+    .problem {
+      /* font-size: 23px ;  */
+      /* display: block; */
+      width: 80%;
+      margin: 30px;
+      padding: 10px;
+      border: 5px solid #ccc; 
+      text-align: left; 
+     }
+    .problem-containerA {
+      display: inline-flex;
+      justify-content: space-around;
+    }
+    .problemA {
+      /* font-size: 23px ; */
+      width: 50%;
+      margin: 10px;
+      padding: 10px;
+      border: 5px solid #ccc;
+      /* text-align: left; */
+    }
+    button {
+      /* font-size: 20px; */
+      background-color: black;
+      color: white;
+      text-align: center;
+      margin: 0 auto;
+      display: block; 
+    }
+    </style>
+</head>
+<body>
+    <thead>
+        <nav>
+          <ul>
+            <li><a href="../../index.html"></i> inicio </a></li>
+            <li><a href="../Capitulo-1/cofla.html"> Cofla capitulo uno </a></li>
+            <li><a href="../Capitulo-2/cofla2.html"> Cofla capitulo dos </a></li>
+            <li><a href="../Capitulo-3/cofla3.html"> Cofla capitulo tres </a></li>
+            <li><a href="../Capitulo-4/cofla4.html"> Cofla capitulo cuatro </a></li>
+            <li><a href="../Capitulo-5/cofla5.html"> Cofla capitulo cinto </a></li>
+            <li><a href="../Capitulo-6/cofla6.html"> Cofla capitulo seis </a></li>
+          </ul>
+        </nav>
+    </thead>
+    <h1 style="text-align:center; font-size:80px; ;" ><i><u>Capitulo 4</u></i></h1>
+    <!-- <div class="problem-container"> -->
+      <div class="problem">
+    <h2><u>Problema A</u></h2>
+      <P>
+      <b> A) </b> Cofla ya esta terminando el primer semestre del primer ciclo, la tarea que debe realizar es mucho avanzanda que la anterior, ademas de suma, resta,
+      multiplicacion y division. Ahora tambien debe poder calcular potencias, raices cuadradas y cubicas.
+      </P>
+      <ol>
+        <li> Perfeccionar la calculadores para poder implementar las nuevas funciones.</li>
+      </ol>
+      <script src="cofla4A.js"></script>
+      <br>
+      <button onclick="resultadoA()"> Abrir calculadora </button>
+      <br>
+     </div>
+     <div class="problem-containerA">
+          <div class="problemA">
+      <h2><u>Problema B</u></h2>
+      <P><b> B) </b> La facultad de Cofla esta por comenzar y las doce materias ya tienen un profesor asigno y todos los alumnos que se anotaron a dichas clases, pero necesitamos ver esto mas ordenado.
+      </P>
+      <ol>
+        <li> Crear una funcion que al pasarle como parametro la materia nos devuelva: 
+            <ul>
+                <li>Profesor asignado</li>
+                <li>El nombre de todos los alumnos</li>
+            </ul>
+        </li>
+        <li>Crea una funcion que nos diga en cuantas clases esta Cofla.</li>
+        <li>Nombrar las clases en las que esta y los profesores de canda una.</li>
+      </ol>
+      <br><hr><p><b>Respuesta B</b></p><br>
+      <script src="cofla4B.js"></script>
+    </div>
+        <div class="problemA">
+      <h2><u>Problema C</u></h2>
+      <P>
+      <b> C) </b> Cofla ya vio las doce materias y se decidio en cual se va a inscribir, asi que en tres dias lo hara, el problema es que se rompio el sistema de inscripcion.</P>
+      <ol>
+        <li> Crear una funcion que al pasarle como parametro la materia nos devuelva: 
+            <ul>
+                <li>Crear una solocion para presentarle a Cofla en que materia se quiere inscribir.</li>
+                <li>Si ya hay 20 alumnos en la materia negarle la inscripcion.</li>
+                <li>Si hay menor de 20 alumnos incribir a Cofla y añadirlo a las lista de alumnos.</li>
+            </ul>
+        </li>
+      </ol> 
+      <br><hr><p><b>Respuesta C</b></p><br>
+      <script src="cofla4C.js"></script>
+     </div>
+    </div>
+</body>
+</html>
