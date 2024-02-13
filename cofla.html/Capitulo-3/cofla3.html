@@ -1,1 +1,176 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cofla problema 3</title>
+    <style>
+      * {
+        background-color: aqua;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 40px;
+        background-color: #ccc;
+      }
+      nav a {
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        border: 3px solid rgb(255, 165, 0)   ;
+        background-color: rgb(0, 0, 0);
+        padding: 4px;
+      }
+      h1 {
+        margin-top: 90px;
+      }
+      .problem-container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .problem {
+        font-size: 23px;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        border: 5px solid #ccc;
+        text-align: left;
+      }
+      button {
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+      }
+    </style>  
+     <script src="cofla3C.js"></script>
+  </head>
+  <body>
+    <thead>
+      <nav>
+        <ul>
+          <li><a href="../../index.html"></i> inicio </a></li>
+          <li><a href="../Capitulo-1/cofla.html"> Cofla capitulo uno </a></li>
+          <li><a href="../Capitulo-2/cofla2.html"> Cofla capitulo dos </a></li>
+          <li><a href="../Capitulo-3/cofla3.html"> Cofla capitulo tres </a></li>
+          <li><a href="../Capitulo-4/cofla4.html"> Cofla capitulo cuatro </a></li>
+          <li><a href="../Capitulo-5/cofla5.html"> Cofla capitulo cinto </a></li>
+          <li><a href="../Capitulo-6/cofla6.html"> Cofla capitulo seis </a></li>
+        </ul>
+      </nav>
+  </thead>
+  <h1 style="text-align:center; font-size:80px; ;" ><i><u>Capitulo 3</u></i></h1>
+  <div class="problem-container">
+    <div class="problem">
+    <h2><u>Problema A</u></h2>
+    <p>
+      <b>A )</b>
+      Cofla enro a una tienda que vende celulares porque le parecio bastante
+      bueno comprarse un nuevo celular. De todos los modelos que hay disponibles
+      en la tienda, a Cofla le llamaron la atencion tres telefonos, el problema
+      es que ningun vendedor sabe nada al respecto no pueden recomendarle
+      absolutamente nada. Pero claro: el antes de comprar esos celulares quiere
+      ver las cualidades y comportamientos de cada uno para poder comparlos. Ahi
+      entramos nosotros.
+    </p>
+    <ol>
+      <li>
+        <b
+          >Crea una sistema para mostrar a Coflar las particularidades de los
+          tres celualres</b
+        >
+      </li>
+      <li>
+        <b>Cada celular debe tener:</b>
+        <ul>
+          <li>Color</li>
+          <li>Peso</li>
+          <li>Resolucion de pantalla</li>
+          <li>Resolucion de camara</li>
+          <li>Memoria RAM</li>
+        </ul>
+      </li>
+      <li>
+        <b>Cada celular debe poder:</b>
+        <ul>
+          <li>Preder</li>
+          <li>Reiniciar</li>
+          <li>Apagar</li>
+          <li>Tomar fotos</li>
+          <li>Grabar</li>
+        </ul>
+      </li>
+    </ol>
+  <button onclick="respuestaA()">Ver respuesta A</button> 
+ </div>
+<script src="cofla3A.js"></script>
+      <div class="problem">
+    <h2><u>Problema B</u></h2>
+    <p>
+      <b>B )</b>
+      Cofla no esta satisfecho con los celulares asi que decide ir a la seccion
+      de celulares de alta gama, donde va a poder encontrar los celulares mas
+      caros del lugar, asi que al entrar vio dos celulares que le encantaron,
+      estos dos celulares de alta camra super lenta, tienen reonocomiento facial
+      y una camara extra.
+    </p>
+    <ol>
+      <li>Implementar todos estas cualidades en los celualres de alta gama</li>
+    </ol>
+    <button onclick="respuestaB()">Ver respuesta B</button> 
+  </div>
+<script src="cofla3B.js"></script>
+      <div class="problem">
+    <h2><u>Problema C</u></h2>
+      <p><b>C )</b>
+          Cofla ya tiene su nuevo celular y ahora esta mirando la aplicacion de Play
+          Store ya que quiere jugar juegos que sean populares, que tengan buena
+          puntuancion y que pesen poco, pero las 7 apps que le llamaron su atencion
+          son un tanto similares y sabe que si se descarbga todas, problemente
+          juegue todas, pero el se va a descargar solo dos para no tener perdidas
+          innecestarias de tiempo jugando juegos con su celular, pero el problema
+          viene cuando no puede decidirse cual de todas estas aplicaciones es la que
+          va descargar.
+      </p>
+        <ol>
+            <li>Crear un sistema que ayude a Cofla cual descargar</li>
+            <li> la infomacion de los instaladores debe conterner:</li>
+              <ul>
+                <li>Cantidad de descargar</li>
+                <li>Puntuacion</li>
+                <li>Peso</li>
+              </ul>
+            <li>Las apps deben:</li>
+              <ul>
+                <li>Instalarse</li>
+                <li>Abrir</li>
+                <li>Cerrar</li>
+                <li>Desintalarse</li>
+              </ul>
+        </ol>
+        <button onclick="respuestaC()">Ver respuesta C</button> 
+      </div>
+    </div> 
+  </body>
+</html>
