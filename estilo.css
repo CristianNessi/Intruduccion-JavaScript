@@ -1,0 +1,10 @@
+/* Pertenerce a la introduccion 6. Para mostrar como se ha stylo a una clase. */
+
+body {
+  color: #222;
+  font-family: sans-serif;
+}
+
+.Grande {
+  color: blue;
+}
