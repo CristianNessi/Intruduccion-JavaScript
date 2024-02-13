@@ -28,7 +28,8 @@ document.addEventListener("DOMContentLoaded", function() {
 const contenedor = document.querySelector(".flex-container");
 
 function crearLlave(nombre, modelo, precio) {
-    let img = '<img class="llave-img" src="C:\\Users\\crist\\OneDrive\\Escritorio\\llave.png">';
+    let img = '<img class="llave-img" src="C:/Users/crist/OneDrive/Escritorio/llave.png">';
+   // let img = '<img class="llave-img" src="C:\\Users\\crist\\OneDrive\\Escritorio\\llave.png">';
     nombre = `<h2>${nombre}</h2>`;
     modelo = `<h3>${modelo}</h3>`;
     precio = `<p>Precio: <b>$${precio}</b></p>`; // Corregir aquí
