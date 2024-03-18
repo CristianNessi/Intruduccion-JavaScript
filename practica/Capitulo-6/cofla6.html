@@ -5,128 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cofla problema 6</title>
     <script src="cofla6.js"></script>
-    <style>
-        body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; 
-        background-color: rgb(57, 55, 181);
-      }
-      nav {
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 1000;
-      }
-     nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 40px;
-        background-color: #ccc;
-      }
-      nav a {
-        font-size: 20px ;
-        text-decoration: none;
-        color: black;
-        border: 3px solid  rgb(255, 0, 0);
-        background-color: rgb(255, 205, 77);
-        padding: 4px;
-      }
-      h1 {
-        margin-top: 90px;
-      }
-      .problem {
-      /* font-size: 23px ;  */
-      /* display: block; */
-      width: 80%;
-      margin: 30px;
-      padding: 10px;
-      border: 5px solid #ccc; 
-      text-align: left; 
-     }
-      button {
-        font-size: 20px;
-        background-color: black;
-        color: white;
-        text-align: center;
-        margin: 0 auto;
-        display: block; 
-      } 
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        color: #333;
-        font-family: sans-serif;
-    }   
-    .flex-item {
-        flex-grow: 1;
-        margin: 20px;
-        max-width: 300px;
-        border: 2px solid #333;
-        padding: 0 20px;
-    }
-    .flex-item:hover {
-        border-color: #71a154;
-        box-shadow: 0px 0px 30px #317124
-    }
-    .flex-item:hover {
-        border-color: #71a154;
-        box-shadow: 0px 0px 30px #317124
-    }
-    h2,h3 {
-        margin: 0;
-    }
-    h3 {
-        color: #999
-    }
-    p b {
-        color: #7fe93e
-    }
-    .llave-img {
-        width: 300px;
-    }
-    form {
-        width: 100%;
-        text-align: center;
-        padding: 50px;
-    }
-    input[type="submit"]{
-        background: #71a154;
-        color: #fff;
-        border: none;
-        padding: 12px 36px;
-        font-size: 17px;
-        letter-spacing: 1px
-    }
-    .send-button:hover {
-        background-color: #317124;
-    }
-    </style>
+    <link rel="stylesheet" href="estilo6.css" type="text/css">
 </head>
 <body>
     <thead>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-btn">&#9776; Menú</label>
         <nav>
           <ul>
             <li><a href="../../index.html"></i> inicio </a></li>
-            <li><a href="../Capitulo-1/cofla.html"> Cofla capitulo uno </a></li>
-            <li><a href="../Capitulo-2/cofla2.html"> Cofla capitulo dos </a></li>
-            <li><a href="../Capitulo-3/cofla3.html"> Cofla capitulo tres </a></li>
-            <li><a href="../Capitulo-4/cofla4.html"> Cofla capitulo cuatro </a></li>
-            <li><a href="../Capitulo-5/cofla5.html"> Cofla capitulo cinto </a></li>
-            <li><a href="../Capitulo-6/cofla6.html"> Cofla capitulo seis </a></li>
+            <li><a href="../Capitulo-1/cofla.html"> Capitulo uno </a></li>
+            <li><a href="../Capitulo-2/cofla2.html"> Capitulo dos </a></li>
+            <li><a href="../Capitulo-3/cofla3.html"> Capitulo tres </a></li>
+            <li><a href="../Capitulo-4/cofla4.html"> Capitulo cuatro </a></li>
+            <li><a href="../Capitulo-5/cofla5.html"> Capitulo cinto </a></li>
           </ul>
         </nav>
     </thead>   
-    <h1 style="text-align:center; font-size:80px; ;" ><i><u>Capitulo 6</u></i></h1>
+    <h1><i><u>Capitulo 6</u></i></h1>
     <div class="problem">
     <h2>Problema A</h2>
     <p><b> A )</b> Cofla se quedo encerrado en su casa por se le rompio la llave, pero necesita ir urgente a la falcultad porque no puede faltar ni una sola vez, su quiere aprobar las materias que le faltan,
@@ -138,7 +34,7 @@
         Crear un sistema que le muestre a Cofla las 10 llaves posibles, con sus 4 imagenes y Cofla debe seleecionar cual llave es la indicada. Una vez que la Cofla seleccione la llave, enviar los datos al servidos, otro programador se encargara de el resto.
     </li></ul>
     </div>
-    <hr style="color:black;background-color: black; width:75%;"  ><br><br>
+    <hr><br><br>
     <div class="flex-container">
     </div>
     <form>
